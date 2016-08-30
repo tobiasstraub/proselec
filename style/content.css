@@ -1,0 +1,17 @@
+@charset "iso-8859-1";
+/* CSS Document */
+#content {
+	width:50%;
+	height:550px;
+	margin:1% auto 1% auto;
+	border-radius:10px;
+}
+
+#content_inner {
+	margin:10px 10px 200px 10px;
+}
+
+#ues {
+	text-align:center;
+	font-size:24px;
+}

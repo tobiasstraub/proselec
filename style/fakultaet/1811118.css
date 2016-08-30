@@ -1,0 +1,123 @@
+#head {
+	width:100%;
+	height:128px;
+	float:left;
+	background-color:#F1CED2;
+	background-image:url(../../images/head/head_wi.jpg);
+	background-repeat:repeat-y;
+}
+
+.auth_login_button {
+	background-color:#D04141;
+	color:#FFF;
+	font-weight:bold;
+	border:1px solid #FFF;
+}
+
+.nav_button {
+	width:10%;
+	height:25px;
+	float:left;
+	margin-right:5px;
+	background-color:#D04141;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	border-left:1px solid #FFF;
+	border-top:1px solid #FFF;
+	border-right:1px solid #FFF;
+}
+
+#footer {
+	width:100%;
+	height:100px;
+	float:left;
+	clear:left;
+	position:fixed;
+	bottom:0px;
+	background-color:#F1CED2;
+	color:#FFF;
+	background-image:url(../../images/foot/foot_wi.jpg);
+	background-repeat:repeat-y;
+}
+
+#foot_bottom {
+	width:50%;
+	float:left;
+	text-align:right;
+	background-color:#F1CED2;
+}
+
+
+
+/* Slider */
+#slideshow {
+	margin:0 auto;
+	width:561px;
+	height:263px;
+	background:transparent url(../../images/project_slider/wi/background.png) no-repeat 0 0;
+	position:relative;
+}
+
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:482px;
+  height:263px;
+  overflow:auto;
+  position:relative;
+}
+
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:540px;
+  height:263px;
+}
+
+.control {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+
+#leftControl {
+  top:0;
+  left:0;
+  background:transparent url(../../images/project_slider/wi/control_left.png) no-repeat 0 0;
+}
+
+#rightControl {
+  top:0;
+  right:0;
+  background:transparent url(../../images/project_slider/wi/control_right.png) no-repeat 0 0;
+}
+
+.slide {
+  color:#000;
+}
+
+.slide_text {
+	margin-right:80px;
+	text-align:justify;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #fff;
+}
+
+#pageContainer {
+  margin:0 auto;
+  width:860px;
+}
+
+.slide h2, .slide p {
+  margin:15px;
+}
+
+.slide h2 {
+  font:italic 24px Georgia, "Times New Roman", Times, serif;
+  color:#000;
+  letter-spacing:-1px;
+}

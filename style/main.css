@@ -1,0 +1,84 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+html {
+	width:100%;
+}
+
+body {
+	width:100%;
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#wrap {
+	width:100%;
+}
+
+#logo {
+	width:50%;
+	float:left;
+	text-align:center;
+	margin-top:2px;
+}
+
+#auth {
+	width:50%;
+	float:left;
+	color:#FFF;
+	margin-top:20px;
+  color:#000;
+}
+
+#nav {
+	width:100%;
+	height:26px;
+	float:left;
+	clear:left;
+}
+
+.nav_button a:link, .nav_button a:visited, .nav_button a:hover, .nav_button a:active {
+	color:#FFF;
+	text-decoration:none;
+}
+
+.nav_button_text {
+	padding:4px;	
+}
+
+#hpc {
+	width:100%;
+	float:left;
+	clear:left;
+}
+
+#footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#foot_top {
+	width:49%;
+	float:left;
+	margin-top:5px;
+	margin-left:1%;
+}
+
+.foot_1 {
+	width:25%;
+	float:left;
+}
+
+.foot_2 {
+	width:25%;
+	float:left;
+}
+
+.foot_3 {
+	width:100%;
+	float:left;
+	clear:left;
+	margin-top:10px;
+}
